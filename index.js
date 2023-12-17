@@ -3,6 +3,8 @@ const port = 8000;
 const app = express();
 const passportJWT = require('./config/passport-jwt-strategy');
 const db = require('./config/mongoose')
+app.use(express.urlencoded());
+
 app.use('/', require('./routes'));
 
 
