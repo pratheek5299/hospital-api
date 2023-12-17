@@ -24,3 +24,8 @@ nodemon index.js
 #####       patients.js
 #####       reports.js
 #####       users.js
+## .gitignore
+## index.js
+## package-lock.json
+## package.json
+## README.md
